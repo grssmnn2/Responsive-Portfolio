@@ -306,6 +306,102 @@ span{
 		position: static;
 	}
 
+	#aboutportcon{
+		width: 50%;
+
+		bottom: 50px;
+		left: 14%;
+	}
+
+
+
+	#yourname{
+		left: 22px;
+		top: 25px;
+		width: 30%;
+		
+	}
+
+	#connectwithme {
+		width: 37%;
+		height: 51%;
+		bottom: 2%;
+		left: 63%;
+	}
+
+	/*About Me Page*/
+
+	#aboutme {
+		width: 50%;
+		top: 30px;
+		bottom: 40px;
+		left: 2px;
+	}
+
+	#cecilyphoto{
+		width: 45%;
+		height: 45%;
+	}
+
+	/*Portfolio Page*/
+
+	#portfoliosection{
+		left: 8px;
+		width: 54%;
+		height: 1575px;
+
+	}
+
+	img{
+		width: 70%;
+		height: 70%;
+	}
+
+	.container p{
+		font-size: 8px;
+		width: 90%;
+		top: 406%;
+	}
+
+	#rpg{
+		top: 10%;
+	}
+
+	#trivia{
+		top: 20%;
+	}
+
+	#riw{
+		top: 30%;
+	}
+
+	#rps{
+		top: 40%;
+	}
+
+	/*Contact Page */
+
+	#contactmeform{
+		height: 50%;
+		width: 54%;
+		left: -1px;
+	}
+
+	input[type="text"] {
+		width: 152%;
+
+	}
+
+	#submitbutton {
+		width: 25%;
+
+	}
+
+	textarea{
+		width: 75%;
+		border: 1px solid rgb(229, 229, 229);
+	}
+	
 }
 
 @media screen and (max-width: 768px) {
