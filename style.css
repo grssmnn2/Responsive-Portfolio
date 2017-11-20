@@ -307,14 +307,15 @@ span{
 	}
 
 	#aboutportcon{
-		width: 50%;
+		width: 100%;
 
 		top: -52px;
-		left: -17%;
+		left: 4%;
 	}
 
 	#aboutportcontext{
-		
+		word-spacing: 85px;
+
 	}
 
 
@@ -326,10 +327,17 @@ span{
 	}
 
 	#connectwithme {
-		width: 93%;
+		width: 100%;
 		height: 51%;
-		bottom: -141%;
-		left: 4%;
+		float: none;
+		margin-left: 0 auto;
+		margin-right: 0 auto;
+		vertical-align: middle;
+		left: 3%;
+		position: static;
+		margin-top: -28%;
+
+	
 	}
 
 	#connectwithmetext{
@@ -338,6 +346,7 @@ span{
 	}
 
 	/*About Me Page*/
+
 
 	#aboutme {
 		width: 92%;
@@ -354,43 +363,51 @@ span{
 
 	/*Portfolio Page*/
 
+	
 	#portfoliosection{
-		left: 8px;
-		width: 94%;
-		height: 680px;
+		left: 56px;
+		width: 79%;
+		height: 2000px;
+
 
 	}
 
 	#cat1, #cat2, #cat3, #cat4, #cat5{
 		width: 200%	;
 		height: 200%;
+		display: table-cell;
+		vertical-align: middle;
+		margin-left: 0 auto;
+		margin-right: 0 auto;
 	}
 
 	.container p{
 		font-size: 14px;
 		width: 190%;
-		top: 521%;
+		top: 599%;
 	}
 
 	#rpg{
-		top: 58%;
-		right: 43%;
+		top: 12%;
+		
 	}
 
 	#trivia{
-		top: 103%;
+		top: 30%;
 	}
 
 	#riw{
-		top: 159%;
-		right: 43%;
+		top: 44%;
+		
+		
 	}
 
 	#rps{
-		top: 203%;
+		top: 56%;
+		
 	}
 
-	/*Contact Page */
+	/*/*Contact Page */
 
 	#contactmeform{
 		height: 50%;
