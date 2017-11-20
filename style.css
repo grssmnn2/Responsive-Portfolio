@@ -309,37 +309,46 @@ span{
 	#aboutportcon{
 		width: 50%;
 
-		bottom: 50px;
-		left: 14%;
+		top: -52px;
+		left: -17%;
+	}
+
+	#aboutportcontext{
+		
 	}
 
 
-
 	#yourname{
-		left: 22px;
-		top: 25px;
-		width: 30%;
+		left: 0%;
+		top: -26px;
+		width: 100%;
 		
 	}
 
 	#connectwithme {
-		width: 37%;
+		width: 93%;
 		height: 51%;
-		bottom: 2%;
-		left: 63%;
+		bottom: -141%;
+		left: 4%;
+	}
+
+	#connectwithmetext{
+		text-align: left;
+		padding-left: 6%;
 	}
 
 	/*About Me Page*/
 
 	#aboutme {
-		width: 50%;
+		width: 92%;
 		top: 30px;
 		bottom: 40px;
-		left: 2px;
+		left: 0%;
+		max-height: 750px;
 	}
 
 	#cecilyphoto{
-		width: 45%;
+		width: 93%;
 		height: 45%;
 	}
 
@@ -347,48 +356,50 @@ span{
 
 	#portfoliosection{
 		left: 8px;
-		width: 54%;
-		height: 1575px;
+		width: 94%;
+		height: 680px;
 
 	}
 
-	img{
-		width: 70%;
-		height: 70%;
+	#cat1, #cat2, #cat3, #cat4, #cat5{
+		width: 200%	;
+		height: 200%;
 	}
 
 	.container p{
-		font-size: 8px;
-		width: 90%;
-		top: 406%;
+		font-size: 14px;
+		width: 190%;
+		top: 521%;
 	}
 
 	#rpg{
-		top: 10%;
+		top: 58%;
+		right: 43%;
 	}
 
 	#trivia{
-		top: 20%;
+		top: 103%;
 	}
 
 	#riw{
-		top: 30%;
+		top: 159%;
+		right: 43%;
 	}
 
 	#rps{
-		top: 40%;
+		top: 203%;
 	}
 
 	/*Contact Page */
 
 	#contactmeform{
 		height: 50%;
-		width: 54%;
+		width: 91%;
 		left: -1px;
 	}
 
 	input[type="text"] {
-		width: 152%;
+		width: 335%;
 
 	}
 
@@ -398,8 +409,12 @@ span{
 	}
 
 	textarea{
-		width: 75%;
+		width: 95%;
 		border: 1px solid rgb(229, 229, 229);
+	}
+
+	#footersection {
+		padding: 0%;
 	}
 	
 }
