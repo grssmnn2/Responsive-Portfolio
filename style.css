@@ -437,10 +437,151 @@ span{
 }
 
 @media screen and (max-width: 768px) {
+	#header{
+		position: static;
+	}
+	
+	#yourname{
+		left: 3%;
+	}
+		
+	#aboutportcon{
+		left: 2%;
+		word-spacing: 5px;
+	}
+
+	#connectwithme {
+		width: 100%;
+		height: 51%;
+		float: none;
+		margin-left: 0 auto;
+		margin-right: 0 auto;
+		vertical-align: middle;
+		left: 3%;
+		position: static;
+		margin-top: -22%;
+
+	
+	}
+
+	#connectwithmetext{
+		text-align: left;
+		padding-left: 6%;
+	}
+
+	/*About Me Page*/
+
+
+	#aboutme {
+		width: 100%;
+		top: 30px;
+		bottom: 40px;
+		left: 0%;
+		max-height: 750px;
+	}
+
+	#cecilyphoto{
+		width: 93%;
+		height: 45%;
+	}
+
+	#footersection {
+		padding: 0%;
+
+	}
 
 
 }
 
 @media screen and (max-width: 980px) {
+	#aboutme {
+		width: 50%;
+		top: 30px;
+		bottom: 40px;
+		left: 0%;
+		max-height: 750px;
+	}
+
+	#cecilyphoto{
+		width: 93%;
+		height: 45%;
+	}
+
+	p{
+		text-align: left;
+	}
+
+	#connectwithme {
+	
+		left: 60%;
+		top: 30%;
+	
+	}
+
+	/*Portfolio Page*/
+
+	
+	#portfoliosection{
+		left: 56px;
+		width: 50%;
+		height: 2000px;
+
+
+	}
+
+	#cat1, #cat2, #cat3, #cat4, #cat5{
+		width: 200%	;
+		height: 200%;
+		display: table-cell;
+		vertical-align: middle;
+		margin-left: 0 auto;
+		margin-right: 0 auto;
+	}
+
+	.container p{
+		font-size: 14px;
+		width: 190%;
+		top: 599%;
+	}
+
+	#rpg{
+		top: 12%;
+		
+	}
+
+	#trivia{
+		top: 30%;
+	}
+
+	#riw{
+		top: 44%;
+		
+		
+	}
+
+	#rps{
+		top: 56%;
+		
+	}
+	/*Contact Me*/
+	#contactmeform{
+		width:45%;
+	}
+
+	input[type="text"] {
+		width: 250%;
+
+	}
+
+	#submitbutton {
+		width: 25%;
+
+	}
+
+	textarea{
+		width: 95%;
+		border: 1px solid rgb(229, 229, 229);
+	}
+
 
 }
